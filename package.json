@@ -9,6 +9,6 @@
   "type": "module",
   "scripts": {
     "test": "mocha",
-    "eslint": "node ./node_modules/.bin/eslint ./public/another-module.js ./public/my-module.js"
+    "eslint": "./node_modules/.bin/eslint ./public/another-module.js ./public/my-module.js"
   }
 }
